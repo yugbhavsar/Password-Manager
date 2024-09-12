@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1A9DC922C91AF060043AA90 /* PasswordManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DC912C91AF060043AA90 /* PasswordManagerApp.swift */; };
+		F1A9DC992C91AF080043AA90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A9DC982C91AF080043AA90 /* Preview Assets.xcassets */; };
+		F1A9DC9B2C91AF080043AA90 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DC9A2C91AF080043AA90 /* Persistence.swift */; };
+		F1A9DC9E2C91AF080043AA90 /* PasswordManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DC9C2C91AF080043AA90 /* PasswordManager.xcdatamodeld */; };
+		F1A9DCBB2C91AFF80043AA90 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DCA72C91AFF70043AA90 /* Constant.swift */; };
+		F1A9DCBC2C91AFF80043AA90 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DCA82C91AFF70043AA90 /* Component.swift */; };
+		F1A9DCBD2C91AFF80043AA90 /* EditDeleteAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DCAA2C91AFF70043AA90 /* EditDeleteAccountView.swift */; };
+		F1A9DCBE2C91AFF80043AA90 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DCAB2C91AFF70043AA90 /* DashboardView.swift */; };
+		F1A9DCBF2C91AFF80043AA90 /* AddCredentialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DCAC2C91AFF70043AA90 /* AddCredentialView.swift */; };
+		F1A9DCC12C91AFF80043AA90 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DCB12C91AFF70043AA90 /* CoreDataManager.swift */; };
+		F1A9DCC22C91AFF80043AA90 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1A9DCB32C91AFF70043AA90 /* Poppins-Light.ttf */; };
+		F1A9DCC32C91AFF80043AA90 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1A9DCB42C91AFF70043AA90 /* Poppins-Medium.ttf */; };
+		F1A9DCC42C91AFF80043AA90 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1A9DCB52C91AFF70043AA90 /* OFL.txt */; };
+		F1A9DCC52C91AFF80043AA90 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1A9DCB62C91AFF70043AA90 /* Poppins-Regular.ttf */; };
+		F1A9DCC62C91AFF80043AA90 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1A9DCB72C91AFF70043AA90 /* Poppins-Bold.ttf */; };
+		F1A9DCC72C91AFF80043AA90 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1A9DCB82C91AFF70043AA90 /* Poppins-SemiBold.ttf */; };
+		F1A9DCCE2C91BFF40043AA90 /* Creds+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DCCC2C91BFF40043AA90 /* Creds+CoreDataClass.swift */; };
+		F1A9DCCF2C91BFF40043AA90 /* Creds+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9DCCD2C91BFF40043AA90 /* Creds+CoreDataProperties.swift */; };
+		F1B132C72C92AA06006760AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B132C62C92AA06006760AC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1A9DC8E2C91AF060043AA90 /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A9DC912C91AF060043AA90 /* PasswordManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerApp.swift; sourceTree = "<group>"; };
+		F1A9DC982C91AF080043AA90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1A9DC9A2C91AF080043AA90 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F1A9DC9D2C91AF080043AA90 /* PasswordManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManager.xcdatamodel; sourceTree = "<group>"; };
+		F1A9DCA42C91AFF70043AA90 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A9DCA72C91AFF70043AA90 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F1A9DCA82C91AFF70043AA90 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		F1A9DCAA2C91AFF70043AA90 /* EditDeleteAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDeleteAccountView.swift; sourceTree = "<group>"; };
+		F1A9DCAB2C91AFF70043AA90 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F1A9DCAC2C91AFF70043AA90 /* AddCredentialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCredentialView.swift; sourceTree = "<group>"; };
+		F1A9DCB12C91AFF70043AA90 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F1A9DCB32C91AFF70043AA90 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		F1A9DCB42C91AFF70043AA90 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F1A9DCB52C91AFF70043AA90 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		F1A9DCB62C91AFF70043AA90 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		F1A9DCB72C91AFF70043AA90 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F1A9DCB82C91AFF70043AA90 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F1A9DCCC2C91BFF40043AA90 /* Creds+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creds+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F1A9DCCD2C91BFF40043AA90 /* Creds+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creds+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F1B132C62C92AA06006760AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1A9DC8B2C91AF060043AA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1A9DC852C91AF060043AA90 = {
+			isa = PBXGroup;
+			children = (
+				F1A9DC902C91AF060043AA90 /* PasswordManager */,
+				F1A9DC8F2C91AF060043AA90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1A9DC8F2C91AF060043AA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DC8E2C91AF060043AA90 /* PasswordManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1A9DC902C91AF060043AA90 /* PasswordManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DCA42C91AFF70043AA90 /* Info.plist */,
+				F1B132C62C92AA06006760AC /* Assets.xcassets */,
+				F1A9DCAD2C91AFF70043AA90 /* Model */,
+				F1A9DCAF2C91AFF70043AA90 /* Resource */,
+				F1A9DCA62C91AFF70043AA90 /* Utilites */,
+				F1A9DCA92C91AFF70043AA90 /* Viewcontroller */,
+				F1A9DC912C91AF060043AA90 /* PasswordManagerApp.swift */,
+				F1A9DC9A2C91AF080043AA90 /* Persistence.swift */,
+				F1A9DC9C2C91AF080043AA90 /* PasswordManager.xcdatamodeld */,
+				F1A9DC972C91AF080043AA90 /* Preview Content */,
+			);
+			path = PasswordManager;
+			sourceTree = "<group>";
+		};
+		F1A9DC972C91AF080043AA90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DC982C91AF080043AA90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1A9DCA62C91AFF70043AA90 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DCA72C91AFF70043AA90 /* Constant.swift */,
+				F1A9DCA82C91AFF70043AA90 /* Component.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		F1A9DCA92C91AFF70043AA90 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DCAA2C91AFF70043AA90 /* EditDeleteAccountView.swift */,
+				F1A9DCAB2C91AFF70043AA90 /* DashboardView.swift */,
+				F1A9DCAC2C91AFF70043AA90 /* AddCredentialView.swift */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		F1A9DCAD2C91AFF70043AA90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DCCC2C91BFF40043AA90 /* Creds+CoreDataClass.swift */,
+				F1A9DCCD2C91BFF40043AA90 /* Creds+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1A9DCAF2C91AFF70043AA90 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DCB02C91AFF70043AA90 /* CoreDataManager */,
+				F1A9DCB22C91AFF70043AA90 /* Poppins-Font-2 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F1A9DCB02C91AFF70043AA90 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DCB12C91AFF70043AA90 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		F1A9DCB22C91AFF70043AA90 /* Poppins-Font-2 */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9DCB32C91AFF70043AA90 /* Poppins-Light.ttf */,
+				F1A9DCB42C91AFF70043AA90 /* Poppins-Medium.ttf */,
+				F1A9DCB52C91AFF70043AA90 /* OFL.txt */,
+				F1A9DCB62C91AFF70043AA90 /* Poppins-Regular.ttf */,
+				F1A9DCB72C91AFF70043AA90 /* Poppins-Bold.ttf */,
+				F1A9DCB82C91AFF70043AA90 /* Poppins-SemiBold.ttf */,
+			);
+			path = "Poppins-Font-2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1A9DC8D2C91AF060043AA90 /* PasswordManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1A9DCA12C91AF080043AA90 /* Build configuration list for PBXNativeTarget "PasswordManager" */;
+			buildPhases = (
+				F1A9DC8A2C91AF060043AA90 /* Sources */,
+				F1A9DC8B2C91AF060043AA90 /* Frameworks */,
+				F1A9DC8C2C91AF060043AA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordManager;
+			productName = PasswordManager;
+			productReference = F1A9DC8E2C91AF060043AA90 /* PasswordManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1A9DC862C91AF060043AA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F1A9DC8D2C91AF060043AA90 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F1A9DC892C91AF060043AA90 /* Build configuration list for PBXProject "PasswordManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1A9DC852C91AF060043AA90;
+			productRefGroup = F1A9DC8F2C91AF060043AA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1A9DC8D2C91AF060043AA90 /* PasswordManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1A9DC8C2C91AF060043AA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A9DCC42C91AFF80043AA90 /* OFL.txt in Resources */,
+				F1A9DCC62C91AFF80043AA90 /* Poppins-Bold.ttf in Resources */,
+				F1A9DC992C91AF080043AA90 /* Preview Assets.xcassets in Resources */,
+				F1A9DCC22C91AFF80043AA90 /* Poppins-Light.ttf in Resources */,
+				F1A9DCC72C91AFF80043AA90 /* Poppins-SemiBold.ttf in Resources */,
+				F1A9DCC32C91AFF80043AA90 /* Poppins-Medium.ttf in Resources */,
+				F1B132C72C92AA06006760AC /* Assets.xcassets in Resources */,
+				F1A9DCC52C91AFF80043AA90 /* Poppins-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1A9DC8A2C91AF060043AA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A9DC9B2C91AF080043AA90 /* Persistence.swift in Sources */,
+				F1A9DCCE2C91BFF40043AA90 /* Creds+CoreDataClass.swift in Sources */,
+				F1A9DCBF2C91AFF80043AA90 /* AddCredentialView.swift in Sources */,
+				F1A9DC9E2C91AF080043AA90 /* PasswordManager.xcdatamodeld in Sources */,
+				F1A9DC922C91AF060043AA90 /* PasswordManagerApp.swift in Sources */,
+				F1A9DCBE2C91AFF80043AA90 /* DashboardView.swift in Sources */,
+				F1A9DCBD2C91AFF80043AA90 /* EditDeleteAccountView.swift in Sources */,
+				F1A9DCBB2C91AFF80043AA90 /* Constant.swift in Sources */,
+				F1A9DCCF2C91BFF40043AA90 /* Creds+CoreDataProperties.swift in Sources */,
+				F1A9DCC12C91AFF80043AA90 /* CoreDataManager.swift in Sources */,
+				F1A9DCBC2C91AFF80043AA90 /* Component.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1A9DC9F2C91AF080043AA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1A9DCA02C91AF080043AA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1A9DCA22C91AF080043AA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
+				DEVELOPMENT_TEAM = XVE83679MR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/harikrishna/Downloads/Yug esparkBiz/PasswordManager/PasswordManager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.passManager.PasswordManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F1A9DCA32C91AF080043AA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
+				DEVELOPMENT_TEAM = XVE83679MR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/harikrishna/Downloads/Yug esparkBiz/PasswordManager/PasswordManager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.passManager.PasswordManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1A9DC892C91AF060043AA90 /* Build configuration list for PBXProject "PasswordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A9DC9F2C91AF080043AA90 /* Debug */,
+				F1A9DCA02C91AF080043AA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1A9DCA12C91AF080043AA90 /* Build configuration list for PBXNativeTarget "PasswordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A9DCA22C91AF080043AA90 /* Debug */,
+				F1A9DCA32C91AF080043AA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1A9DC9C2C91AF080043AA90 /* PasswordManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1A9DC9D2C91AF080043AA90 /* PasswordManager.xcdatamodel */,
+			);
+			currentVersion = F1A9DC9D2C91AF080043AA90 /* PasswordManager.xcdatamodel */;
+			path = PasswordManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1A9DC862C91AF060043AA90 /* Project object */;
+}
