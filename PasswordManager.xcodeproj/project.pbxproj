@@ -172,6 +172,7 @@
 				F1A9DC8A2C91AF060043AA90 /* Sources */,
 				F1A9DC8B2C91AF060043AA90 /* Frameworks */,
 				F1A9DC8C2C91AF060043AA90 /* Resources */,
+				F1B132D22C9301B8006760AC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -232,6 +233,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F1B132D22C9301B8006760AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/PasswordManager/PasswordManager/Info.plist",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/PasswordManager/PasswordManager/Info.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1A9DC8A2C91AF060043AA90 /* Sources */ = {
