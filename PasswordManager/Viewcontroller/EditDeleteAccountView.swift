@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct EditDeleteAccountView: View {
     
@@ -172,6 +173,10 @@ struct AccountDetailContainer: View {
     
     func copyToClipboard(text: String) {
         UIPasteboard.general.string = text
+        
+        let impactFeedbackGenerator = UIImpactFeedbackGenerator(style: .medium)
+        impactFeedbackGenerator.prepare()
+        impactFeedbackGenerator.impactOccurred()
     }
 }
 
