@@ -34,7 +34,6 @@
 		F1A9DC982C91AF080043AA90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1A9DC9A2C91AF080043AA90 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F1A9DC9D2C91AF080043AA90 /* PasswordManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManager.xcdatamodel; sourceTree = "<group>"; };
-		F1A9DCA42C91AFF70043AA90 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1A9DCA72C91AFF70043AA90 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		F1A9DCA82C91AFF70043AA90 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		F1A9DCAA2C91AFF70043AA90 /* EditDeleteAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDeleteAccountView.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		F1A9DCCC2C91BFF40043AA90 /* Creds+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creds+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F1A9DCCD2C91BFF40043AA90 /* Creds+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creds+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F1B132C62C92AA06006760AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1B132D02C92FF26006760AC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		F1A9DC902C91AF060043AA90 /* PasswordManager */ = {
 			isa = PBXGroup;
 			children = (
-				F1A9DCA42C91AFF70043AA90 /* Info.plist */,
 				F1B132C62C92AA06006760AC /* Assets.xcassets */,
+				F1B132D02C92FF26006760AC /* Info.plist */,
 				F1A9DCAD2C91AFF70043AA90 /* Model */,
 				F1A9DCAF2C91AFF70043AA90 /* Resource */,
 				F1A9DCA62C91AFF70043AA90 /* Utilites */,
